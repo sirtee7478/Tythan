@@ -5,8 +5,9 @@ import { FaEnvelope, FaHouseDamage, FaPhone, FaClock } from "react-icons/fa";
 function Contact() {
   return (
     <div className="contactWrapper">
-      <div className="contactWrapper-Background">
-        <img src={require("../images/about_us_banner.png")} alt="" />
+      <div className="contact--background">
+        <img src={require("../images/Services.jpg")} alt="" />
+        <h1>Our Services</h1>
       </div>
 
       <div className="contactWrapperInfo">

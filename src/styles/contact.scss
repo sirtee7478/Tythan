@@ -35,6 +35,47 @@
         }
     }
 
+        .contact--background {
+            width: 100%;
+            margin: 0 auto;
+            position: relative;
+            @media (max-width:1200px) {
+                    padding-top: 20px;
+                }
+            
+                @media (max-width:1024px) {
+                    padding-top: 40px;
+                }
+            
+                @media (max-width:992px) {
+                    padding-top: 60px;
+                }
+    
+            >img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+                object-position: center center;
+            }
+    
+            h1 {
+                position: absolute;
+                font-size: 50px;
+                top: 50%;
+                left: 50px;
+                color: white;
+                letter-spacing: 5px;
+    
+                @media (max-width:1200px) {
+                    font-size: 40px;
+                }
+    
+                @media (max-width:992px) {
+                    font-size: 30px;
+                }
+            }
+        }
+
     .contactWrapperInfo{
         
         display: flex;

@@ -17,12 +17,9 @@ function About() {
   
   return (
     <div className="about">
-      <div className="about--banner">
-        <img
-          className="about--banner__img"
-          src={require("../images/about-image.jpg")}
-          alt=""
-        />
+      <div className="about--background">
+        <img src={require("../images/Services.jpg")} alt="" />
+        <h1>About Us</h1>
       </div>
 
       <div className="aboutWrapper">
