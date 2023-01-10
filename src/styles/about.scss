@@ -55,8 +55,10 @@
 
         .about--story{
            flex: 1; 
-           display: block; 
+           display: flex; 
+           flex-direction: column;
            background-color: #0a5786;
+            justify-content: center;
            padding: 40px 20px;
           
            max-width: 500px;
@@ -266,6 +268,7 @@
         h2{
             margin-top: -30px;
             padding-bottom: 20px;
+            color: white;
         }
 
        

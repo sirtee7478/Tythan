@@ -6,7 +6,10 @@ import {
   FaBoxOpen,
   FaChartLine,
   FaLeanpub,
-  FaPeopleCarry,
+  // FaPeopleCarry,
+  FaConnectdevelop,
+  FaConfluence,
+  FaPushed
 } from "react-icons/fa";
 
 function About() {
@@ -90,7 +93,7 @@ function About() {
           <h3>1</h3>
           <h2>Vision Statement</h2>
           <div className="aboutInnerOne">
-            <FaPeopleCarry
+            <FaConnectdevelop
               size={50}
               style={{
                 boxSizing: "content-box",
@@ -99,8 +102,6 @@ function About() {
                 borderRadius: "50%",
                 margin: "10px 0",
               }}
-
-              
             />
 
             <p>
@@ -114,7 +115,7 @@ function About() {
           <h3>2</h3>
           <h2>Mission Statement</h2>
           <div className="aboutInnerTwo">
-            <FaPeopleCarry
+            <FaConfluence
               size={50}
               style={{
                 boxSizing: "content-box",
@@ -136,7 +137,7 @@ function About() {
           <h3>3</h3>
           <h2>Commitment Statement</h2>
           <div className="aboutInnerThree">
-            <FaPeopleCarry
+            <FaPushed
               size={50}
               style={{
                 boxSizing: "content-box",
