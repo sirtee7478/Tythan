@@ -1,0 +1,256 @@
+   .contactWrapper{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+   
+   
+  
+
+    .contactWrapper-Background{
+
+        width: 100%;
+        max-width: 1500px;
+        margin: 0 auto;
+
+        img{
+            object-fit: cover;
+            height: auto;
+            width: 100%;
+            object-position: center;
+            max-width: 1500px;
+
+            @media (max-width:1024px) {
+            
+                    margin-top: 40px;
+            
+                }
+
+                @media (max-width:768px) {
+            
+                    margin-top: 60px;
+            
+                }
+            
+        }
+    }
+
+    .contactWrapperInfo{
+        
+        display: flex;
+        
+        gap: 10px;
+        margin: 70px auto;
+        place-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 1000px;
+        padding: 0 20px;
+        margin-top: 50px;
+        
+
+        @media (max-width:1024px) {
+        
+                  padding: 0 10px;
+        
+                }
+        
+
+        @media (max-width:768px) {
+        
+               flex-direction: column;
+               margin-top: -50px;
+                
+        
+            }
+
+       
+    
+
+        p{
+            margin: 20px 0;
+           
+
+        }
+      
+
+        .contactWrapperInfo--message{
+           
+             width: 50%;
+             p{
+                font-size: 18px;
+             }
+
+            @media (max-width:768px) {
+            
+                    width: 100%;
+                    // max-width: 600px;
+                    margin-top: 100px;
+                    
+            
+            
+                }
+            
+          
+        }
+
+        .contactWrapperInfo--form{
+           
+            padding: 10px 5px;
+            border: 1px solid #e8e8e8;
+            width: 50%;
+            border-radius: 3px;
+          
+                
+            @media (max-width:768px) {
+            
+                    width: 100%;
+            
+            
+                }
+            
+
+            
+
+            .contactWrapperInfo--form__name{
+                width: 100%;
+                display: grid;
+                gap: 5px;
+               
+               align-items: center;
+               
+                grid-template-columns: repeat(2,1fr);
+                margin-bottom: 30px;
+                margin-top: 10px;
+                
+
+               
+
+                label{ 
+                    
+                    input{
+                    width: 100%;
+                    
+                    border-radius: 3px;
+                  
+                    
+                    height: 30px;
+                    padding:10px;
+                    border: 1px solid #e8e8e8;
+                }
+
+            }
+     
+            }
+
+            .contactFormMessage{
+                max-width: 100%;
+                
+                
+                textarea{
+                  width: 100%;
+                  min-width: 100%;
+                  max-width: 100%;
+                   height: 100px;
+                   min-height: 100px;
+                   max-height: 110px;
+                   border-radius: 3px;
+                   border: 1px solid #e8e8e8;
+                }
+                
+            }
+
+            .contactSubmit>button{
+                margin-top: 10px;
+                padding: 7px 20px;
+                background-color: #FFA500;
+                color: white;
+                border: none;
+                font-weight: 700;
+                border-radius: 3px;
+            }
+        }
+        
+    }
+
+    .contactUs{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        max-width: 1000px;
+        margin: 0 auto;
+        margin-bottom: 70px;
+        margin-top: 50px;
+        line-height: 20px;
+        padding: 0 20px;
+
+
+        @media (max-width:768px) {
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 30px;
+                margin-top: 20px;
+        
+            }
+
+
+        &--phone, &--email, &--address, &--workHours{
+            text-align: center;
+
+            
+
+            a{
+                text-decoration: none;
+                color: gray;
+            }
+
+            h4{
+                padding: 10px 0;
+                font-size: 20px;
+            }
+
+            p{
+                font-size: 18px;
+                color: gray;
+            }
+        }
+
+        svg{
+            box-sizing: content-box;
+            border-radius: 5px;
+            color: white;
+            margin-bottom: 5px;
+            background-color: #0a5786;
+            padding: 10px;
+        }
+
+        &--map{
+            display: flex;
+            justify-content: center;
+           
+            
+           
+        }
+
+                @media (max-width:1024px) {
+        
+                    display: grid;
+                    
+                    justify-content: center;
+                    grid-template-columns: repeat(2, 2fr);
+                    grid-auto-rows: 200px;
+                    gap: 10px;
+        
+                }
+
+                 @media (max-width:530px) {
+        
+                grid-template-columns: 1fr;
+                gap: 0;
+                
+                
+        
+            }
+        
+    }
+   }
