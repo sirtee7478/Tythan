@@ -35,7 +35,7 @@ function Services() {
           Describe={
             "Our online business development platform, gain Incubator supports entrepreneurs with expertise and tools necessary to succeed."
           }
-          DivImg={require("../images/training-development.jpeg")}
+          DivImg={require("../images/learning-and-development.jpeg")}
         />
 
         <BusinessSections
@@ -51,7 +51,7 @@ function Services() {
           Describe={
             "The future starts now! If you want your enterprise to be seen as a pioneer in the future, a strong, appealing website should be your benchmark to drive your business up."
           }
-          DivImg={require("../images/web-dev.png")}
+          DivImg={require("../images/website-development.png")}
         />
 
         <BusinessSections
@@ -59,7 +59,7 @@ function Services() {
           Describe={
             "Holisticly benchmark functional products before excellent methods of empowerment. Seamlessly visualize innovative web-readiness whereas extensive initiatives."
           }
-          DivImg={require("../images/branding.jpg")}
+          DivImg={require("../images/branding-increase-sales.jpg")}
         />
 
         <BusinessSections
@@ -67,7 +67,7 @@ function Services() {
           Describe={
             "Competition in digital marketing in Nigeria has become more fierce than ever, good contents won't just take you to the top. Mabo Brand is good at targeting key areas and audience that truly cares about your brand."
           }
-          DivImg={require("../images/digital-marketing.jpg")}
+          DivImg={require("../images/digitalmarketing.jpeg")}
         />
       </div>
 

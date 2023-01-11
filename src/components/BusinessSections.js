@@ -6,7 +6,9 @@ function BusinessSections({ BusinessDivision, Describe, DivImg }) {
   return (
     <div className="businessSections">
       
-      <img src={DivImg} alt="" />
+        <img src={DivImg} alt="" />
+      
+
       <div className=" businessSections--content">
         {/* <div className=""> */}
         <h4>{BusinessDivision}</h4>
