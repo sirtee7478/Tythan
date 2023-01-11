@@ -27,7 +27,7 @@ function Header() {
         </div>
 
         <div className="navMenu">
-          <ul className={mobileMenu? "mobileNav" : "nav"}>
+          <ul className={mobileMenu ? "mobileNav" : "nav"}>
             <li className="navlink">
               <NavLink to="/">Home</NavLink>
             </li>
@@ -49,13 +49,29 @@ function Header() {
       </div>
 
       <div className="socialMedia">
+        <a
+          href="https://web.facebook.com/ogunmilade.tope"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaFacebook size={18} className="socialMediaIcons" />
+        </a>
 
-        <FaFacebook size={18} className="socialMediaIcons" />
-        <FaTwitter size={18} className="socialMediaIcons" />
-        <FaLinkedin size={18} className="socialMediaIcons" />
-        <FaInstagram size={18} className="socialMediaIcons" />
-        <FaWhatsapp size={18} className="socialMediaIcons" />
-        
+        <a href="https://twitter.com/?lang=en" target="_blank" rel="noreferrer">
+          <FaTwitter size={18} className="socialMediaIcons" />
+        </a>
+
+        <a href="https://linkedin.com/" target="_blank" rel="noreferrer">
+          <FaLinkedin size={18} className="socialMediaIcons" />
+        </a>
+
+        <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+          <FaInstagram size={18} className="socialMediaIcons" />
+        </a>
+
+        <a href="https://web.whatsapp.com/" target="_blank" rel="noreferrer">
+          <FaWhatsapp size={18} className="socialMediaIcons" />
+        </a>
       </div>
     </div>
   );
