@@ -374,7 +374,7 @@
 
          @media (max-width:1024px) {
         
-                grid-template-columns: repeat(2, minmax(350px, 450px));
+                grid-template-columns: repeat(2, minmax(400px, 450px));
                 padding: 0 20px;
                 gap: 20px;
         
@@ -485,12 +485,20 @@
             .numberDisplay--counter__clients{
                margin-right: 10px;
                 text-align: center;
+
+                h3{
+                    font-size: 25px;
+                }
                 
             }
 
             .numberDisplay--counter__projects{
                 margin-left: 10px;
                 text-align: center;
+
+                h3 {
+                        font-size: 25px;
+                    }
             }
             
         }

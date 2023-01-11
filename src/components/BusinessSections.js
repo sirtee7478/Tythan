@@ -5,6 +5,7 @@ import "../styles/BusinessSections.scss";
 function BusinessSections({ BusinessDivision, Describe, DivImg }) {
   return (
     <div className="businessSections">
+      
       <img src={DivImg} alt="" />
       <div className=" businessSections--content">
         {/* <div className=""> */}

@@ -54,7 +54,7 @@ function Home() {
 
         <div className="legendButton">
           <div className="legendFirstButton">
-            <Link to={'/contact'}>
+            <Link to={"/contact"}>
               <button className="button1" id="getInTouch">
                 Get In Touch
               </button>
@@ -121,7 +121,11 @@ function Home() {
           </div>
 
           <div className="businessDivisionSections" id="background1">
-            <FaBimobject id="bizDivisionIcon" size={50} box-sizing="content-box"/>
+            <FaBimobject
+              id="bizDivisionIcon"
+              size={50}
+              box-sizing="content-box"
+            />
             <h4>Business Branding</h4>
             <p>
               Holisticly benchmark functional products before excellent methods
@@ -146,7 +150,6 @@ function Home() {
       </div>
 
       <div className="trustedCustomer">
-
         {/* <div className="trustedCustomer--block1 " id="emptyBlock"></div> */}
         <div className="trustedCustomer--block2">
           <p className="customerContainer--content2__item">
@@ -155,7 +158,6 @@ function Home() {
         </div>
 
         {/* <div className="trustedCustomer--block3 " id="emptyBlock"></div> */}
-
       </div>
 
       {/* <div className="customerLine "></div> */}
@@ -218,8 +220,9 @@ function Home() {
         <div className="testimonialComponent--wrapper">
           <div className="testimonialComponent--wrapper__item">
             <Testimonial
+              testyImage={require("../images/bewakoof.jpg")}
               review={
-                " Wow. You guys rocked on the website project. Thanks so much for doing a great job!"
+                " The branding you guys handled for my company is one in town, thanks for the job"
               }
               name={"Temitayo"}
               position={"Product Manager"}
@@ -227,6 +230,7 @@ function Home() {
           </div>
           <div className="testimonialComponent--wrapper__item">
             <Testimonial
+              testyImage={require("../images/albert.jpg")}
               review={
                 " Wow. You guys rocked on the website project. Thanks so much for doing a great job!"
               }
@@ -236,26 +240,29 @@ function Home() {
           </div>
           <div className="testimonialComponent--wrapper__item">
             <Testimonial
+              testyImage={require("../images/jurica.jpg")}
               review={
-                " Wow. You guys rocked on the website project. Thanks so much for doing a great job!"
+                " I look forward to do business with you in future because you guys are the best"
               }
-              name={"Feyisayo"}
-              position={"Accountant"}
+              name={"Alfred"}
+              position={"Product Manager"}
             />
           </div>
           <div className="testimonialComponent--wrapper__item">
             <Testimonial
+              testyImage={require("../images/meysam.jpg")}
               review={
-                " Wow. You guys rocked on the website project. Thanks so much for doing a great job!"
+                "For those looking for a branding company, this is the company you need, yes is what it"
               }
-              name={"Feyisayo"}
-              position={"Accountant"}
+              name={"Solomon"}
+              position={"Engineer"}
             />
           </div>
           <div className="testimonialComponent--wrapper__item">
             <Testimonial
+              testyImage={require("../images/joseph.jpg")}
               review={
-                " Wow. You guys rocked on the website project. Thanks so much for doing a great job!"
+                " I had a very nice experience dealing with the company, I can boldly recommend you guys"
               }
               name={"Testy Mox"}
               position={"Software Engnr"}
@@ -263,10 +270,11 @@ function Home() {
           </div>
           <div className="testimonialComponent--wrapper__item">
             <Testimonial
+              testyImage={require("../images/ali.jpg")}
               review={
-                " Wow. You guys rocked on the website project. Thanks so much for doing a great job!"
+                " I am always happy doing things with you guys. Thanks so much for doing a great job!"
               }
-              name={"Testy Mox"}
+              name={"Mariam Foto"}
               position={"Software Engnr"}
             />
           </div>

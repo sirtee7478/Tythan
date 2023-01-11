@@ -4,13 +4,14 @@ import { FaFacebook, FaTwitter, FaLinkedin } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 
-function Testimonial({ review, position, name }) {
+function Testimonial({ review, position, name, testyImage }) {
   return (
     <div className="testimonial">
       <div className="testimonial--card">
         <img
-          className="testimonial--card__img"
-          src={require("../images/Headset10.jpg")}
+          src={testyImage}
+          // className="testimonial--card__img"
+          // src={require("../images/Headset10.jpg")}
           alt=""
         />
         <p>
