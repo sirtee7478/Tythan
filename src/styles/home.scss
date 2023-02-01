@@ -352,12 +352,6 @@
           
             justify-content: center;
             width: 100%;
-            
-            
-            
-            
-      
-            
 
           &--wrapper{
                 display: grid;
@@ -374,7 +368,7 @@
 
          @media (max-width:1024px) {
         
-                grid-template-columns: repeat(2, minmax(400px, 450px));
+                grid-template-columns: repeat(2, minmax(300px, 450px));
                 padding: 0 20px;
                 gap: 20px;
         
